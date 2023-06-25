@@ -1,0 +1,232 @@
+
+
+.btn {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.c {
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 800px;
+    top: 550px;
+  }
+
+  .c:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .h{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 650px;
+    top: 550px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .h:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .image{
+    background-image: url("carlogo.jpg");
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 600px;
+    right:690px;
+    top: 30px;
+    margin-top:  60px; ;
+    padding-left:-10px;
+    border-radius: 50px;
+  }
+  .body{
+    background-color:  rgb(168, 168, 168);
+  }
+ 
+  .signuplogin{
+    position: absolute;
+    right: 65px;
+    top: 50px;
+    width: 1370px;
+    height: 620px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-left: 50px;
+   
+  }
+
+  .style{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height:620px;
+    width: 350px;
+    top:50px;
+    right:58px;
+    border-radius: 20px 10px ;
+  }
+  .loginbtn{
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    width: 150px;
+    height:65px;
+    padding-bottom: 20px;
+    margin-left: 190px;
+    padding-right: 30px;
+    margin-top: 40px;
+  }
+
+
+.loginbtn:hover{
+  color:black;
+  background-color: rgb(20, 214, 253);
+}
+  .anch{
+    text-decoration: none;
+  }
+  .f{
+    font-size: 20px;
+    padding-left: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+
+  .loginText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top:30px;
+    margin-bottom: 40px;
+    position: relative;
+    left:0px;
+  }
+  .label{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   
+    
+  }
+  .accinputtext{
+    border-radius: 10px;
+    height:30px;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+  .ex{
+    margin-bottom: 15px;
+  }
+
+.e2_29 { 
+	background-color:rgb(255, 255, 255);
+	width:90px;
+	height:48px;
+	position:absolute;
+	left:340px;
+	top:500px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 2px;
+}
+
+.e2_31 { 
+	width:25px;
+	height:26px;
+	position:absolute;
+	left:370px;
+	top:510px;
+	background-image:url(images/facebook_logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+   
+}
+
+.e2_33 { 
+	background-color:rgb(255, 255, 255);
+	width:90px;
+	height:48px;
+	position:absolute;
+	left:180px;
+	top:500px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 2px;
+}
+
+
+.e2_35 { 
+	width:25.08333396911621px;
+	height:26px;
+	position:absolute;
+	left:210px;
+	top:510px;
+	background-image:url(images/google_logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.alternative{
+    position: absolute;
+    left:250px;
+    top:440px;
+    color:#a7a7a7
+}
+
+.signuplink{
+  position: absolute;
+  left:180px;
+  top:560px;
+  color: #a7a7a7;
+
+}
+.anchsign{
+  text-decoration: none;
+  color:  rgb(20, 214, 253);
+}
+
+.logo{
+  position: absolute;
+  top:17px;
+  left:30px;
+  width:130px;
+  height:auto;
+}
+
+.title{
+  margin-left:-20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title1{
+  color:  #00ccff;
+}
+
+.ani{
+  margin-right:950px;
+}
+.it1{
+  text-decoration: none;
+  color: #000000;
+}

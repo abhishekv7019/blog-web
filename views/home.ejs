@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/aboutblog.css">
+    <title>Document</title>
+</head>
+<body>
+  <ul class="header">
+    <li class="ani"><a href="/blogoff" class="it1"><h1 class="title">Blog<span class="title1">Off</span></h1></a></li>
+    <li><a href="/home" class="it1"><h2 class="item1 a " id="p">Home</h2></a></li>
+    <li><a href="/compose" class="it1"><h2 class="itemm a " id="l">Compose</h2></a></li>
+    <li><a href="/profile" class="it1"><h2 class="itemm a " id="m">Profile</h2></a></li>
+</ul>
+<br>
+    <h1 class="heading-topblogs">Top blogs</h1>
+    <div class="sampleblog">
+    <h1 class="sampleblogtitle"><%= title1 %></h1>
+    <p class="paran"><%= content1.substring(0,700) %></p>
+    <a href="/<%=title2 %>" class="bh"><div class="rm">Read more</div></a>
+    </div>
+
+    <div class="sampleblog1">
+      <h1 class="sampleblogtitle1"><%= title2 %></h1>
+      <p class="paran"><%= content2.substring(0,700) %></p>
+      <a href="/<%=title2 %>" class="bh"><div class="rm">Read more</div></a>
+      </div>
+    
+      <div class="sampleblog2">
+        <h1 class="sampleblogtitle2"><%= title3 %></h1>
+        <p class="paran"><%= content3.substring(0,700) %></p>
+        <a href="/<%=title3 %>" class="bh"><div class="rm">Read more</div></a>
+        </div>
+    <br>
+    <h1 class="hometitle sampleblogtitle">Recent posts</h1>
+     <% blog.forEach(function(b){ %>
+      <% if(b.title!="Television" && b.title!="Artificial intelligence" && b.title!="Social media" ){ %>
+      <a href="/<%=b.title%>"><div class="homeblogs">
+       <a href="/<%=b.title%>" class="underr"><h1 class="sampleblogtitle8"><%= b.title %></h1></a> 
+       <p class="author"><%= b.loggeduser %></p>
+       <img class="liketext" src="/public/images/like.png" >
+       <p class="bytext">by</p>
+       <div class="con"><p ><%= b.content.substring(0,370)+"...." %><a href="/<%=b.title%>" class="readmore">readmore</a></p></div>
+       <p class="numlike"><%= b.social.likes %></p>
+       <img class="comtext" src="/public/images/comment.png">
+       <p class="numcom"><%= b.social.comments.length %></p>
+      </div></a>
+    <%  } %>
+    <% }) %>
+    <br>
+    <div class="footer">
+        <br><br>
+      <h3 class="infof">Sign up for newsletters and updates</h3>
+      <br>
+      <form action="/home" method="post">
+        <input type="email" name="useremail" class="mail" size="30" placeholder="Enter your email id" ><br><br>
+        <button type="submit" name="bb" class="smail" value="emailsub">Submit</button>
+      </form>
+      <br><br><br>
+      <h3>copyrights @2022</h3>
+    </div>
+    
+    <script src="/public/animation.js"></script>
+</body>
+</html>

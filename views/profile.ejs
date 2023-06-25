@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/public/profile.css">
+
+    <title></title>
+</head>
+<body style="background-color: #d0d0d0 ;overflow-x: hidden">
+    
+        <ul class="header">
+            <li class="ani"><a href="/blogoff" class="it1"><h1 class="title">Blog<span class="title1">Off</span></h1></a></li>
+            <li><a href="/home" class="it1"><h2 class="item1 a " id="p">Home</h2></a></li>
+            <li><a href="/compose" class="it1"><h2 class="itemm a " id="l">Compose</h2></a></li>
+            <li><a href="/profile" class="it1"><h2 class="itemm a " id="m">Profile</h2></a></li>
+        </ul>
+    
+   
+    <img src="/public/images/profilepic.jpg" class="profilepic">
+    <form method="post" action="/profile">
+    <button class="logout" name="log" value="logout">Logout</button>
+    </form>
+
+    <h2 class="username"><%=name.toUpperCase() %></h2>
+    <h2 class="usermail"><%=email %></h2>
+    <h1 class="numblog">Blogs</h1>
+    <h1 class="comblog">Comments</h1>
+    <h1 class="numb"><%= blog %></h1>
+    <h1 class="numc"><%= come %></h1>
+    <h1 class="heading-topblogs">Your blogs</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+        <% blog1.forEach(function(b){ %>
+            <% if(b.title!="Television" && b.title!="Artificial intelligence" && b.title!="Social media" ){ %>
+                <div class="homeblogs">
+        <a href="/<%=b.title%>" class="underr"><h1 class="sampleblogtitle8"><%= b.title %></h1></a> 
+        <img class="liketext" src="/public/images/like.png" >
+        <div class="con"><p ><%= b.content.substring(0,370)+"...." %><a href="/<%=b.title%>" class="readmore">readmore</a></p></div>
+        <p class="numlike"><%= b.social.likes %></p>
+        <img class="comtext" src="/public/images/comment.png">
+        <p class="numcom"><%= b.social.comments.length %></p>
+       </div></a>
+       <%  } %>
+       <% }) %>
+</body>
+</html>

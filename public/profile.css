@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+.profilepic{
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+    margin-left: 670px;
+    margin-top:40px;
+    margin-bottom:100px;
+}
+
+.itemm{
+    margin-left:30px; ;
+    margin-right:20px; 
+    padding-top: 5px;
+
+}
+.item1{
+    margin-right:20px;
+    padding-top: 5px;
+   
+}
+
+.header{
+    background-color:hwb(0 0% 100%);
+    margin-left:-10px;
+    margin-top: -10px;
+    margin-right:-7px;
+    
+}
+
+.ani{
+    margin-right:950px;
+}
+.it1{
+    text-decoration: none;
+    color: #ffffff;
+}
+.title{
+    margin-left:-20px;
+}
+.title1{
+    color:  #00ccff
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.a:hover{
+    color: #00d5ff;
+  }
+
+.logout{
+    width: 100px;
+    height:50px;
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    right:20px;
+    top:100px;
+}
+
+.logout:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border-color: red;
+}
+
+.username{
+    position:absolute;
+    left:730px;
+    top:350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.usermail{
+    position:absolute;
+    left:680px;
+    top:400px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.numblog{
+    position: absolute;
+    left:430px;
+    top:500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comblog{
+    position: absolute;
+    left:1000px;
+    top:500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.numb{
+    position: absolute;
+    left:450px;
+    top:550px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.numc{
+    position: absolute;
+    left:1060px;
+    top:550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-topblogs{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #28606e;
+    position: absolute;
+    top:650px;
+    right:600px;
+  }
+
+  .actualcomment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+  .commentheading{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .homeblogs{
+    background-color: #ffffff;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    padding:5px 10px 0px 10px;
+    position: relative;
+    height: 180px;
+    
+  }
+  
+  .liketext{
+      position: relative;
+      right: -400px;
+      top :50px;
+      font-size: 30px;
+      width:30px;
+      height:auto;
+  }
+  
+  .numlike{
+    position: relative;
+    right: -450px;
+    top :-75px;
+    font-size: 20px;
+  }
+  
+  .comtext{
+    position: relative;
+    right: -650px;
+    top :-120px;
+    font-size: 30px;
+    width:30px;
+    height:auto;
+  }
+  
+  .numcom{
+    position: relative;
+    right: -700px;
+    top :-173px;
+    font-size: 20px;
+  }
+  
+  .con{
+    position: relative;
+    right: -300px;
+    top: -100px;
+    width: 1000px;
+    font-size: 17px;
+  }
+  
+
+ 
+  .sampleblogtitle8{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .underr{
+    text-decoration: none;
+    color: black;
+  }
+
+  .readmore{
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+  }
